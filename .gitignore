@@ -1,0 +1,29 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 虚拟环境 / conda 环境
+venv/
+env/
+.conda/
+
+# IDE 配置
+.vscode/
+.idea/
+
+# 项目生成物（数据集、日志、模型权重）
+data/
+logs/
+checkpoints/
+
+# 模型文件双保险
+*.pth
+*.pt
+*.onnx
+
+# Jupyter 检查点
+.ipynb_checkpoints/
+
+# 系统文件
+.DS_Store
+Thumbs.db
